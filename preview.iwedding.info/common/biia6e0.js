@@ -179,7 +179,7 @@ if(biicore.bgMusic){
 	}
 	</style>
 	<div class="bii-player">
-		<div id="play-audio" onclick="playPause();" class="bii-player-secondary"><div class="bii-player-secondary-content"></div></div>
+		<div id="play-audio" onclick="playPause();" class="bii-player-secondary"></div>
 		<div onclick="playPause();" class="playerIcon">
 			<span id="playerVolumeOff">
 				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="#fff" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">

@@ -130,12 +130,9 @@ if(biicore.bgMusic){
 			document.getElementById("playerVolumeOff").style.display = "none";
 			document.getElementById("playerVolumeOn").style.display = "block";
 		} else {
-			audioPlayer.play();
-			document.getElementById("playerVolumeOff").style.display = "none";
-			document.getElementById("playerVolumeOn").style.display = "block";
-			// audioPlayer.pause(); 
-			// document.getElementById("playerVolumeOff").style.display = "block";
-			// document.getElementById("playerVolumeOn").style.display = "none";
+			audioPlayer.pause(); 
+			document.getElementById("playerVolumeOff").style.display = "block";
+			document.getElementById("playerVolumeOn").style.display = "none";
 		}
 	}
 	document.write(`
